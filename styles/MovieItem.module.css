@@ -1,0 +1,36 @@
+.card {
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 12px;
+  background: linear-gradient(180deg, #ffffff, #fbfbfb);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.year {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.meta {
+  color: #444;
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+
+.desc {
+  color: #333;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}

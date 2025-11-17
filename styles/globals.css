@@ -1,0 +1,17 @@
+:root{
+  --bg: #fafafa;
+  --text: #0f172a;
+}
+
+html,body,#__next{
+  height:100%;
+}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+}
+
+h1{
+  margin:0 0 12px 0;
+}
